@@ -1,0 +1,320 @@
+
+/* Header Code*/
+header {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: white;
+  font-size: 2vw;
+  text-align: center;
+  float: left;
+  background-color: #4aaaa5;
+  margin-top: 1pt; 
+  margin-left: 10%;
+  padding: 30pt;
+  box-shadow: 10px 10px 5px #888888;
+}
+/*Nav Link Styling*/
+#HeaderNav{
+  color: #777777;
+  text-align: center;
+  border-right: 1px solid #000000;
+}
+#HeaderNav ul {
+  padding-left: 20%;
+
+}
+#HeaderNav a {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+}
+
+/* visited link */
+#HeaderNav a:visited {
+    color: #777777;
+}
+
+/* mouse over link */
+#HeaderNav a:hover {
+    color: purple;
+}
+
+/* selected link */
+#HeaderNav a:active {
+    color: grey;
+} 
+#about {
+  padding-left: 50%;
+  font-size: 1.5vw;
+  margin-top: 40px;
+  display: inline-flex;
+}
+
+#Portabout {
+  padding-left: 15%;
+  font-size: 1.5vw;
+  margin-top: 20px;
+  display: inline-flex;
+  
+}
+#portfolio {
+  display: inline-flex;
+  padding-left: 12px;
+  font-size: 1.5vw;
+  margin-top: 40px;
+}
+#contact{
+  padding-left: 12px;
+  font-size: 1.5vw;
+  margin-top: 40px;
+    display: inline-flex;
+}
+
+
+/*About Me - Vertical Line*/
+.line {
+  border-right:.5px solid #777777;
+  padding-right: 20px;
+}
+/*About Me Box Background*/
+.background{
+  background-image: url(../images/background.png);
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: auto;
+  width: 100%;
+  height: 70%;
+  border-bottom: 10px solid #4aaaa5;
+}
+/*Background for Portfolio*/
+.backgroundP{
+  background-image: url(../images/background.png);
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: auto;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+/*Index.html Section*/
+
+#sectionInd{
+  background-color: white;
+  border: 2px solid #777777;
+  border-style: round;
+  border-radius: 25pt;
+  margin-top: 6%; 
+  margin-left: 10%;
+  width: 60%;
+  height: 70%;
+  padding: 1%;
+  box-shadow: 10px 10px 5px #888888;
+  font-size: 1vw;
+  resize: all;
+  overflow: auto;
+}
+/*Contact.html Section*/
+#sectionCont{
+  background-color: white;
+  border: 2px solid #777777;
+  border-style: round;
+  border-radius: 25pt;
+  margin-top: 5%; 
+  margin-left: 10%;
+  width: 60%;
+  height: 75%;
+  padding: 1%;
+  box-shadow: 10px 10px 5px #888888;
+  font-size: 1vw;
+  resize: all;
+  overflow: auto;
+}
+
+#sectionCont h1 {
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 0px 0px 24px 10px;
+  color: #4aaaa5;
+  border-bottom: 2px solid #777777;
+}
+
+/*Index.html Personal Pic*/
+#sectionInd img {
+  float: left;
+  margin-top: 3%;
+  max-height: 40%;
+  max-width: 10%
+  padding: 6%;
+  padding-right: 3%;
+  resize: all;
+}
+#sectionInd h1 {
+  font-family:'Georgia', Times, Times New Roman, serif;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 0px 0px 24px 10px;
+  color: #4aaaa5;
+  border-bottom: 2px solid #777777;
+}
+#sectionInd p {
+  line-height: 150%;
+  margin-left: 0px 15px 0px 15px;
+  padding-top: 16px;
+  text-align: justify; 
+}
+/*Connect With Me Styling*/
+aside {
+  float:left;
+}
+/* Connect W/Me Index.html Aside Styling*/
+#asideInd{
+  background-color: white;
+  border: 2px solid #777777;
+  border-radius: 25pt;
+  margin-top: 6%; 
+  margin-left: 4%;
+  max-width: 20%;
+  max-height: 35%;
+  box-shadow: 10px 10px 5px #888888;
+}
+/* Connect W/Me Index.html Aside Styling*/
+#asideCont{
+  background-color: white;
+  border: 2px solid #777777;
+  border-radius: 25pt;
+  margin-top: 5%; 
+  margin-left: 4%;
+  max-width: 15%;
+  max-height: 35%;
+  box-shadow: 10px 10px 5px #888888;
+}
+/* Connect W/Me portfolio.html Aside Styling*/
+#asidePort{
+  background-color: white;
+  border: 2px solid #777777;
+  border-radius: 25pt;
+  margin-top: 2%; 
+  margin-left: 14%;
+  max-width: 20%;
+  max-height: 30%;
+  box-shadow: 10px 10px 5px #888888;
+}
+/*Connect W/Me Header 2 Style*/
+#h2{  
+  font-size: 1.5vw;
+  font-style: italic;
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #4aaaa5;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 6%;
+  border-bottom: 1.5pt solid #777777;
+}
+/* Contact Me Image Styling*/
+#h2stack{
+  float: left;
+  width: 35%;
+  height: 50%;
+  margin-top: 5px;
+  padding-left: 10pt;
+  padding-bottom: 10%;
+  resize: all;
+}
+#h2git {
+  float: left;
+  width: 25%;
+  height: 30%;
+  padding-top: 10pt;
+  padding-left: 5pt;
+  resize: all;
+}
+#h2lin{
+  float: left;
+  width: 40%;
+  height: 50%;
+  margin-top: 5px;
+  padding-bottom: 10%;
+  resize: all;
+}
+/*index & contact.html footers*/
+footer{
+  display: flex;
+  text-align: center;
+  background-color: grey;
+  margin-top: auto;
+  padding-top: 3%; 
+  width: 100%;
+  height: 15%;
+
+}
+/*Contace Me Page CSS*/
+input[type=text].msg
+{
+    resize: all;
+    width: 100%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+.button{
+  resize: all;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: white;
+  background-color: #4aaaa5;
+  border-radius: 10%;
+  width: 10%;
+  height: 10%;
+  padding-bottom: 1pt;
+}
+/*Portfolio.html Section*/
+#sectionPort {
+  background-color: white;
+  border: 2px solid #777777;
+  border-style: round;
+  border-radius: 25pt;
+  margin-top: 2%; 
+  margin-left: 10%;
+  width: 35%;
+  height: 80%;
+  padding: 1%;
+  box-shadow: 10px 10px 5px #888888;
+  resize: all;
+  overflow: auto;
+  }
+
+/*Portfolio Header Style*/
+#sectionPort h1 {
+  font-family:'Georgia', Times, Times New Roman, serif;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 0px 0px 24px 10px;
+  color: #4aaaa5;
+  border-bottom: 2px solid #777777;
+}
+
+/*Portfolio Image Section Styling*/
+#sectionPort ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+#sectionPort li {
+  float: left;
+}
+#sectionPort img {
+  width: 170px;
+  height: 150px;
+  margin: 0px 35px 0px 0px;
+}
+
+
+/*Portfolio CaptionCode */
+ #sectionPort .caption1 { 
+  color: #fff;
+  background-color: #4aaaa5;
+  line-height: 40px;
+  width: 83%;
+  text-align: center;
+  position: relative;
+  bottom: 60px;
+}
