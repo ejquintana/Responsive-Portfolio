@@ -131,7 +131,7 @@ header {
 
 #sectionCont h1 {
   font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 2vw;
+  font-size: 2em;
   font-weight: bold;
   padding: 0px 0px 24px 10px;
   color: #4aaaa5;
@@ -150,7 +150,7 @@ header {
 }
 #sectionInd h1 {
   font-family:'Georgia', Times, Times New Roman, serif;
-  font-size: 2vw;
+  font-size: 2em;
   font-weight: bold;
   padding: 0px 0px 24px 10px;
   color: #4aaaa5;
@@ -240,7 +240,6 @@ aside {
 footer{
   display: flex;
   text-align: center;
-  font-size: 1vw;
   background-color: grey;
   margin-top: auto;
   padding-top: 3%; 
@@ -322,14 +321,12 @@ input[type=text].msg
 @media only screen and (max-width: 980px){
 #sectionPort img {
 width: 100%;
-margin-bottom: 5px
 }
 /*Portfolio CaptionCode */
- #sectionPort .caption1 { 
+#sectionPort .caption1 { 
 width: 100%;
 }
 }
-
 @media only screen and (max-width: 768px){
 #HeaderNav ul {
   padding-left: 5%;
@@ -339,15 +336,14 @@ width: 100%;
   margin-top: 40px;
 }
 #sectionPort img {
-width: 20%;
+width: 100%;
 margin-bottom: 5px;
 }
 /*Portfolio CaptionCode */
 #sectionPort .caption1 { 
-width: 20%;
+width: 100%;
 }
 }
-
 @media only screen and (max-width: 640px){
 #sectionInd p {
   line-height: 150%;
